@@ -2,6 +2,7 @@ public class IsomorphicStrings {
     public static boolean checkIsomorphic(String s, String t) {
         int[] index1 = new int[200];
         int[] index2 = new int[200];
+        
         if (s.length() != t.length())
             return false;
         for (int i = 0; i < s.length(); i++) {
