@@ -36,7 +36,7 @@ public class BankingProgram {
             }
         }
 
-        scanner.close();  // Close only at the end
+        scanner.close();  
     }
 
     public static void withdrawAmount(Scanner scanner) {
